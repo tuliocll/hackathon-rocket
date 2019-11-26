@@ -1,7 +1,15 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-// import { Container } from './styles';
+import Routes from './routes';
+
+import GlobalStyles from './styles/global.styles';
 
 export default function App() {
-  return <div />;
+  return (
+    <Router>
+      <Routes />
+      <GlobalStyles />
+    </Router>
+  );
 }
