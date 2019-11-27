@@ -2,10 +2,11 @@ import React from 'react';
 import { Switch, useLocation, Route } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
+import Welcome from './pages/Welcome';
+
 import './styles/animation.styles.css';
 
 const Home = () => <h1>Home</h1>;
-const Welcome = () => <h1>Welcome</h1>;
 
 export default function Routes() {
   const location = useLocation();
