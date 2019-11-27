@@ -16,6 +16,9 @@ html, body, #root {
     min-height: 100%;
     background: #100f12;
 }
+#root > div, body {
+  height: 100vh;
+}
 body, input, button{
     font: 14px 'Montserrat', sans-serif;
 }
