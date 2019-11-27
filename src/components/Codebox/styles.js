@@ -8,6 +8,7 @@ export const Container = styled.div`
 export const CodeContainer = styled.div`
   display: flex;
   margin: 10px;
+  height: 300px;
   width: 100%;
   background: #262730;
   border-radius: 6px;

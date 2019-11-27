@@ -8,6 +8,6 @@ export const Container = styled.div`
 export const CanvasContainer = styled.canvas`
   height: 300px;
   width: 100%;
-  background: #fff;
+  background: #6d6d6d;
   border-radius: 6px;
 `;
