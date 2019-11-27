@@ -3,23 +3,37 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   padding: 68px;
-`
+  padding-bottom: 0px;
+`;
 
 export const ContentGameName = styled.div`
-  margin-bottom: 24px;
-   
+  margin-bottom: 10px;
+
   h1 {
-    color: #FFF;
+    color: #fff;
     font-weight: 600;
     font-size: 48px;
     line-height: 59px;
   }
 `;
 
+export const ContentGameDescription = styled.p`
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 18px;
+`;
+
 export const ProgressBar = styled.div`
   width: 100%;
   height: 10px;
   background: #fff;
+  border-radius: 7px;
+`;
+
+export const ProgressBarFull = styled.div`
+  width: 30%;
+  height: 10px;
+  background: #1159cb;
   border-radius: 7px;
 `;
 
@@ -38,7 +52,7 @@ export const ContainerFooter = styled.div`
   }
 `;
 
-export const Button = styled(Link)`
+export const Button = styled.button`
   width: 380px;
   height: 51px;
   line-height: 51px;

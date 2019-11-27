@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const CodeContainer = styled.div`
   display: flex;
   margin: 10px;
-  height: 300px;
+  height: 200px;
   width: 100%;
   background: #262730;
   border-radius: 6px;
@@ -16,7 +16,7 @@ export const CodeContainer = styled.div`
 `;
 
 export const Code = styled.textarea`
-  height: 300px;
+  height: 200px;
   width: 97%;
   background: #36393f;
   border-color: #0000;

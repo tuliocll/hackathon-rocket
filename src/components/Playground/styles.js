@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 export const CanvasContainer = styled.canvas`
-  height: 300px;
+  height: 200px;
   width: 100%;
   background: #6d6d6d;
   border-radius: 6px;
