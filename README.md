@@ -11,7 +11,7 @@
 
 > Levar o conhecimento de técnologia ao ensino médio e para pessoas da mesma faixa etária por meio de programação gameficada, demonstrando a programação de forma simples rápida e simplificada.
 
-### Prjeto
+### Projeto
 
 > [Protótipo](https://www.figma.com/file/AHALrz5kvXRg0piLnboCbc/Hackaton)
 
