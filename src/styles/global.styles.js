@@ -16,7 +16,7 @@ html, body, #root {
     min-height: 100%;
     background: #100f12;
 }
-#root > div, body {
+body {
   height: 100vh;
 }
 body, input, button{
