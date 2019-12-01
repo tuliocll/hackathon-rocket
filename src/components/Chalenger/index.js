@@ -17,14 +17,15 @@ export default function Chalenger() {
   const [code, setCode] = useState();
   const [compiling, setCompiling] = useState(false);
 
-  function compilar(str) {
+  function compilar(compare) {
+    const str = compare.replace(/(\r\n|\n|\r)/gm, '');
     setCompiling(true);
     setTimeout(() => {
       if (str === '<div class="header"></div>') {
         return draw('nav1');
       }
 
-      if (str === '<div class="header"><h1 class="logo">Facebook</h1></div>') {
+      if (str === '<div class="header"><h1 class="logo">facebook</h1></div>') {
         return draw('nav2');
       }
 

@@ -11,11 +11,11 @@ export default function Welcome() {
       <IntroWrapper>
         <h1>Bem-vindo ao GameLang</h1>
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non
-          eros tempor, fringilla ante nec, tincidunt diam. Vestibulum eget
-          pretium urna. Donec nec magna ac ante, Phasellus posuere mi sagittis
-          volutpat vehicula. In nec libero fermentum, posuere arcu eget, cursus
-          urna. Nam ut facilisis est.
+          Somos uma plataforma destinada ao ensino de programação de forma
+          dinamica, engajada e super atual. <br />
+          Com exemplos de aplicativos e sites reais, vamos te ensinar como
+          funciona a programação. <br />
+          Então vamos lá!
         </div>
         <Button to="/dashboard">COMEÇAR</Button>
       </IntroWrapper>

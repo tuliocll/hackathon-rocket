@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { NotificationManager } from 'react-notifications';
+import { Link } from 'react-router-dom';
 
 import {
   Container,
@@ -22,6 +24,10 @@ import monitor from '../../assets/images/monitor.png';
 import facebook from '../../assets/images/facebook.png';
 
 export default function Dashboard() {
+  useEffect(() => {
+    NotificationManager.info('Escolha o modulo do facebook para continuar!');
+  }, []);
+
   return (
     <Container>
       <LeftContainer>
@@ -64,32 +70,32 @@ export default function Dashboard() {
           <CourseContainer>
             <ContentWrapper>
               <CourseContent>
-                <a href="/game">
+                <Link to="game">
                   <img src={facebook} alt="facebook" />
-                </a>
+                </Link>
               </CourseContent>
               <CourseContent>
-                <a href="/game">
+                <Link to="game">
                   <img src={facebook} alt="facebook" />
-                </a>
+                </Link>
               </CourseContent>
             </ContentWrapper>
             <ContentWrapper>
               <CourseContent>
-                <a href="/game">
+                <Link to="game">
                   <img src={facebook} alt="facebook" />
-                </a>
+                </Link>
               </CourseContent>
               <CourseContent>
-                <a href="/game">
+                <Link to="game">
                   <img src={facebook} alt="facebook" />
-                </a>
+                </Link>
               </CourseContent>
             </ContentWrapper>
             <CourseContentStarter>
-              <a href="/game">
+              <Link to="game">
                 <img src={facebook} alt="facebook" />
-              </a>
+              </Link>
             </CourseContentStarter>
           </CourseContainer>
         </Courses>
